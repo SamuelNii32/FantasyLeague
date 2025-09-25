@@ -22,6 +22,8 @@ namespace Infrastructure.Data
 
         public DbSet<Club> Clubs => Set<Club>();
 
+        public DbSet<Player> Players => Set<Player>();
+
 
 
 

@@ -13,5 +13,8 @@ namespace Domain.Entities
         public string ShortName { get; set; } = null!; 
         public DateTime CreatedAt { get; set; }
 
+        public ICollection<Player> Players { get; set; } = new List<Player>();
+
+
     }
 }
